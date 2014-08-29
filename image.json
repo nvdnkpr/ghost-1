@@ -1,0 +1,10 @@
+{
+  "name": "ghost",
+  "version": "0.1.0",
+  "description": "Official Docker Ghost blog.",
+  "author": "Kitematic",
+  "logo": "logo.png",
+  "app": {
+    "webPort": 2368
+  }
+}

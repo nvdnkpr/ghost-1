@@ -24,7 +24,7 @@ ADD start.bash /ghost-start
 ENV NODE_ENV production
 
 # Define mountable directories.
-VOLUME ["/data", "/ghost-override"]
+VOLUME ["/ghost-override"]
 
 # Define working directory.
 WORKDIR /ghost
